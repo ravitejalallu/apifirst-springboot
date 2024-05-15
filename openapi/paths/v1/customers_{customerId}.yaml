@@ -6,7 +6,7 @@ get:
   operationId: getCustomerById
   parameters:
     - in: path
-      name: customer_id
+      name: customerId
       required: true
       schema:
         type: string

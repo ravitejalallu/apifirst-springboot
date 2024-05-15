@@ -1,0 +1,20 @@
+get:
+  tags:
+    - Product
+  summary: Get a list of products
+  description: Get a list of products
+  operationId: listproducts
+  responses:
+    '200':
+      description: A list of products
+      content:
+        application/json:
+          schema:
+            $ref: ..\..\components\schemas\v1\customer_list.yaml
+    '404':
+      description: Not Found
+      content: 
+        application/json:
+          schema:
+            $ref: ..\..\components\schemas\Problem.yaml
+            

@@ -1,0 +1,21 @@
+type: object
+properties:
+  id:
+    type: string
+    format: uuid
+    description: Unique Identifier representing a Specific customer
+  addressLine:
+    type: string
+    description: Address Line 1
+  addressLine2:
+    type: string
+    description: Address Line 2
+  city:
+    type: string
+    description: city name
+  state:
+    type: string
+    description: state
+  zip:
+    type: string
+    description: state      

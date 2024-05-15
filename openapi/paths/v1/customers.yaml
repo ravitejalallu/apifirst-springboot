@@ -16,6 +16,6 @@ get:
       content: 
         application/json:
           schema:
-            $ref: ..\..\components\schemas\Problem.yaml
+            $ref: ../../components/schemas/Problem.yaml
             
 

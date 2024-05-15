@@ -10,12 +10,12 @@ get:
       content:
         application/json:
           schema:
-            $ref: ..\..\components\schemas\v1\order_list.yaml
+            $ref: ../../components/schemas/v1/order_list.yaml
     '404':
       description: Not Found
       content: 
         application/json:
           schema:
-            $ref: ..\..\components\schemas\Problem.yaml
+            $ref: ../../components/schemas/Problem.yaml
             
 

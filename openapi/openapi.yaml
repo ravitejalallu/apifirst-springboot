@@ -9,8 +9,10 @@ info:
   license:
     name: Apache 2.0
     url: rkovuru@gmail.com
-  x-logo:
-    url: 'https://www.google.com/search?q=webstore+png&rlz=1C1ONGR_enCA1074CA1074&oq=webstore+png&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigAdIBCDQ2NDVqMGo3qAIIsAIB&sourceid=chrome&ie=UTF-8#vhid=_F3cSwpagamq5M&vssid=l'
+   x-logo:
+      url: 'https://redocly.github.io/redoc/example-logo.png'
+      backgroundColor: '#FFFFFF'
+      altText: 'Example logo'
     
   description: >
     This is spring boot example API to demonstrate features of the OpenAPI specification.

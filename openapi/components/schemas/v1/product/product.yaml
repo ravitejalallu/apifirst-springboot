@@ -4,6 +4,7 @@ properties:
     type: string
     format: uuid
     description: unique identifier representing specific product
+    readOnly: true
   dimentions:
     $ref: dimentions.yaml
   categories:
@@ -21,10 +22,6 @@ properties:
     type: string
     pattern: ^-?(?:0|[1-9]\d{0,2}(?:,?\d{3})*)(?:\.\d+)?$
   dateCreated:
-    type: string
-    format: date-time
-    description: The date the image was created
+    $ref:  ../../common/timestamp.yaml
   dateUpdated:
-    type: string
-    format: date-time
-    description: The date the image was updated
+    $ref:  ../../common/timestamp.yaml

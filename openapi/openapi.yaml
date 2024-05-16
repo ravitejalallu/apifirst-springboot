@@ -10,10 +10,7 @@ info:
     name: Apache 2.0
     url: rkovuru@gmail.com
   x-logo:
-    url: "https://redocly.github.io/redoc/example-logo.png"
-    backgroundColor: "#FFFFFF"
-    altText: "Example logo"
-
+    url: https://redocly.github.io/openapi-template/logo.png
   description: >
     This is spring boot example API to demonstrate features of the OpenAPI specification.
 

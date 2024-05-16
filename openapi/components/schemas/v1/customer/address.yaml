@@ -38,13 +38,9 @@ properties:
     maxLength: 10
     example: M4C2C3
   dateCreated:
-    type: string
-    format: date-time
-    readOnly: true
+    $ref:  ../../common/timestamp.yaml
   dateUpdated:
-    type: string
-    format: date-time
-    readOnly: true
+    $ref:  ../../common/timestamp.yaml
 
 required:
   - addressLine1

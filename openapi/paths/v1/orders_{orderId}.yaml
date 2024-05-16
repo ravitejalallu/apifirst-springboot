@@ -18,7 +18,7 @@ get:
           content:
             application/json:
               schema:
-                $ref: ../../components/schemas/v1/order.yaml
+                $ref: ../../components/schemas/v1/order/order.yaml
         '400':
           description: Bad request
         '404':

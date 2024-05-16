@@ -23,14 +23,9 @@ properties:
     type: integer
     example: 123
   dateCreated:
-    type: string
-    format: date-time
-    readOnly: true
+    $ref:  ../../common/timestamp.yaml
   dateUpdated:
-    type: string
-    format: date-time
-    readOnly: true
-
+    $ref:  ../../common/timestamp.yaml
 required:
   - displayName
   - cardNumber

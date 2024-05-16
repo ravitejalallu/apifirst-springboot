@@ -9,15 +9,18 @@ info:
   license:
     name: Apache 2.0
     url: rkovuru@gmail.com
+  x-logo:
+    url: https://redocly.github.io/openapi-template/logo.png
   description: >
     This is spring boot example API to demonstrate features of the OpenAPI specification.
+
 tags:
   - name: Customer
     description: Customer operations.
   - name: Product
     description: Product operations.
   - name: Order
-    description: Order operations.   
+    description: Order operations.
 servers:
   - url: https://{tenant}/api/v1
     variables:
@@ -26,7 +29,7 @@ servers:
         description: Your tenant id
   - url: https://example.com/api/v1
 paths:
-  "/v1/customers":
+  "/customers":
     $ref: paths/v1/customers.yaml
   "/v1/customers/{customerId}":
     $ref: paths/v1/customers_{customerId}.yaml
@@ -35,9 +38,9 @@ paths:
   "/v1/products/{productId}":
     $ref: paths/v1/products_{productId}.yaml
   "/v1/orders":
-     $ref: paths/v1/orders.yaml  
+    $ref: paths/v1/orders.yaml
   "/v1/orders/{orderId}":
-     $ref: paths/v1/orders_{orderId}.yaml  
+    $ref: paths/v1/orders_{orderId}.yaml
 security:
   - basic_auth: []
 components:

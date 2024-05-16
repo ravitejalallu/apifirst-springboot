@@ -8,12 +8,16 @@ properties:
     type: string
     minLength: 0
     maxLength: 25
+    example: Scotia
   cardNumber:
     type: integer
+    example: 123456789012456
   expiryMonth:
     type: integer
+    example: 7
   expiryYear:
     type: integer
+    example: 28
   cvv:
     type: integer
   dateCreated:

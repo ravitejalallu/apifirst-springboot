@@ -9,26 +9,31 @@ properties:
     description: Address Line 1
     minLength: 3
     maxLength: 100
+    example: 2 Secord Avenue
   addressLine2:
     type: string
     description: Address Line 2
     minLength: 3
     maxLength: 100
+    example: East york
   city:
     type: string
     description: city name
     minLength: 2
     maxLength: 100
+    example: Toronto
   state:
     type: string
     description: 2 char state code
     minLength: 2
     maxLength: 2
+    example: ON
   zip:
     type: string
     description: state
     minLength: 5
     maxLength: 10
+    example: M4C2C3
 
 required:
   - addressLine1

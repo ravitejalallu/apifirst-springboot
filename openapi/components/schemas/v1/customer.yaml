@@ -14,6 +14,7 @@ properties:
     type: string
     maxLength: 255
     minLength: 3
+    example: rkovuru@gmail.com
   phone:
     type: string
     maxLength: 15

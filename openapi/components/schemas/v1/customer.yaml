@@ -1,31 +1,41 @@
 type: object
 properties:
-  id: 
+  id:
     type: string
     format: uuid
     description: unique identifier representing specific customer
     readOnly: true
   name:
-    $ref: name.yaml  
+    $ref: name.yaml
   shipToAddress:
-    $ref: address.yaml  
+    $ref: address.yaml
   billToAddress:
-   $ref: address.yaml 
+    $ref: address.yaml
   email:
     type: string
     maxLength: 255
     minLength: 3
     example: rkovuru@gmail.com
   phone:
-    type: string
+    type:
+      - string
+      - "null"
     maxLength: 15
     minLength: 7
     example: +1 9866403063
   paymentMethods:
     type: array
-    items: 
-      $ref: payment_method.yaml   
-required: 
+    items:
+      $ref: payment_method.yaml
+  dateCreated:
+    type: string
+    format: date-time
+    readOnly: true
+  dateUpdated:
+    type: string
+    format: date-time
+    readOnly: true
+required:
   - name
   - shipToAddress
-  - billToAddress     
+  - billToAddress

@@ -19,6 +19,7 @@ properties:
     type: string
     maxLength: 15
     minLength: 7
+    example: +1 9866403063
   paymentMethods:
     type: array
     items: 

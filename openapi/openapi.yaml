@@ -23,7 +23,7 @@ tags:
     description: Order operations.
 servers:
   - url: http://localhost:8080/api/v1
-
+ 
 paths:
   "/customers":
     $ref: paths/v1/customers.yaml

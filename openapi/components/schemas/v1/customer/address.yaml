@@ -32,11 +32,6 @@ properties:
     minLength: 5
     maxLength: 10
     example: M4C2C3
-  dateCreated:
-    $ref:  ../../common/timestamp.yaml
-  dateUpdated:
-    $ref:  ../../common/timestamp.yaml
-
 required:
   - addressLine1
   - city

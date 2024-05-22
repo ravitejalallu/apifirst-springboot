@@ -1,10 +1,5 @@
 type: object
 properties:
-  id:
-    type: string
-    format: uuid
-    description: Unique Identifier representing a Specific customer
-    readOnly: true
   addressLine1:
     type: string
     description: Address Line 1

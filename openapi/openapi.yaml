@@ -22,7 +22,7 @@ tags:
   - name: Order
     description: Order operations
 servers:
-  - url: http://localhost:8080/api
+  - url: http://localhost:8080
  
 paths:
   "/v1/customers":

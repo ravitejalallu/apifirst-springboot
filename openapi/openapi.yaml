@@ -20,9 +20,9 @@ tags:
   - name: Product
     description: Product operations.
   - name: Order
-    description: Order operations.
+    description: Order operations
 servers:
-  - url: http://localhost:8080/api/
+  - url: http://localhost:8080/api
  
 paths:
   "/v1/customers":

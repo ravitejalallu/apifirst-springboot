@@ -10,7 +10,6 @@ rules:
 theme:
   openapi:
     htmlTemplate: ./docs/index.html
-    corsProxyUrl: false
     theme:
       colors:
         primary:
